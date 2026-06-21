@@ -1,20 +1,29 @@
-# YouTube Transcripts
+# LinkedIn Posts
 
-Transcripts/notes are organized by video, one markdown file per video:
-`<author-slug>__<short-title-slug>.md`
+Posts are organized by author, one markdown file per author:
+`<author-slug>.md`
 
-Each file contains:
-- Video title, channel, publish date, and URL
-- How the transcript was obtained (API used, or manual notes if no
-  transcript API access was available)
-- Key timestamped takeaways relevant to AI-powered SEO content production
-- A short paraphrased summary (not a full verbatim transcript dump, to
-  respect copyright and keep the file useful as research signal rather
-  than a copy of the source)
+Each file contains a curated set of that author's recent, relevant posts on
+AI-powered SEO content production, with:
+- Post date
+- Direct link
+- A brief annotation (why this post matters / what it shows)
+- A short paraphrased summary of the content (not full verbatim copy, to
+  respect copyright — see note below)
 
-## Method
-Transcripts were pulled using a transcript-fetching approach (e.g. a
-YouTube transcript API such as Supadata, or `yt-dlp` + auto-captions where
-available). Where automated transcript retrieval wasn't possible for a
-specific video (private captions, no captions available, API limits),
-manual viewing notes are used instead and explicitly marked as such.
+## Copyright note
+LinkedIn posts are collected as **links + summaries/paraphrases**, not full
+verbatim reproductions. Where a short phrase is quoted directly, it is kept
+under 15 words and wrapped in quotation marks with attribution.
+
+## Authors covered here
+- jake-ward.md
+- mark-williams-cook.md
+- eli-schwartz.md
+- koray-tugberk-gubur.md
+- nathan-gotch.md
+- lily-ray.md
+- aleyda-solis.md
+- kevin-indig.md
+- glen-allsopp.md
+- patrick-stox.md
